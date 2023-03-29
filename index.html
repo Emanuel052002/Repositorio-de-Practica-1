@@ -6,67 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina de Practica Nro 1">
     <meta name="keywords" content="HTML5,CSS3,JavaScript">
+    <link rel="stylesheet" href="/estilos.css">
     <title>Pagina de Practica 1</title>
 </head>
 
 <body>
-    <header>
-        <hgroup>
-            <h1>Titutlo Principal de la Pagina</h1>
-            <h2>Subtitulo Principal de la Pagina</h2>
-        </hgroup>
-    </header>
-
-    <nav>
-        <ul>
-            <li>Menu Op 1</li>
-            <li>Menu Op 2</li>
-            <li>Menu Op 3</li>
-            <li>Menu Op 4</li>
-        </ul>
-    </nav>
-
-    <section>
-        <article>
-            <header>
-                <hgroup>
-                    <h1>Titulo Primer Articulo</h1>
-                    <h2>Subtitulo Primer Articulo</h2>
-                </hgroup>
-            </header>
-            <p>Mensaje Primer Articulo</p>
-            <figure>
-                <img src="/Imagenes de Prueba/tree-736885__480.jpg" alt="Imagen de un arbol">
-                <figcaption>
-                    Imagen de prueba (arbol)
-                </figcaption>
-            </figure>
-            <footer>
-                <p>Pie de pagina Primer Articulo</p>
-            </footer>
-        </article>
-
-        <article>
-            <header>
-                <hgroup>
-                    <h1>Titulo Segundo Articulo</h1>
-                    <h2>Subtitulo Segundo Articulo</h2>
-                </hgroup>
-            </header>
-            <p>Mensaje Segundo Articulo</p>
-            <footer>
-                <p>Pie de pagina Segundo Articulo</p>
-            </footer>
-        </article>
-    </section>
-
-    <aside>
-        <blockquote>Mensaje Lateral 1</blockquote>
-        <blockquote>Mensaje Lateral 2</blockquote>
-    </aside>
-
-    <footer>
-        <small>Pie de Pagina Principal</small>
-    </footer>
+    <div id="agrupar">
+        <header id="cabecera">
+            <hgroup>
+                <h1>Titutlo Principal de la Pagina</h1>
+                <h2>Subtitulo Principal de la Pagina</h2>
+            </hgroup>
+        </header>
+        
+        <nav id="menu">
+            <ul>
+                <li>Menu Op 1</li>
+                <li>Menu Op 2</li>
+                <li>Menu Op 3</li>
+                <li>Menu Op 4</li>
+            </ul>
+        </nav>
+        
+        <section id="seccion">
+            <article>
+                <header>
+                    <hgroup>
+                        <h1>Titulo Primer Articulo</h1>
+                        <h2>Subtitulo Primer Articulo</h2>
+                    </hgroup>
+                </header>
+                <p>Mensaje Primer Articulo</p>
+                <figure>
+                    <img src="/Imagenes de Prueba/tree-736885__480.jpg" alt="Imagen de un arbol">
+                    <figcaption>
+                        Imagen de prueba (arbol)
+                    </figcaption>
+                </figure>
+                <footer>
+                    <p>Pie de pagina Primer Articulo</p>
+                </footer>
+            </article>
+        
+            <article>
+                <header>
+                    <hgroup>
+                        <h1>Titulo Segundo Articulo</h1>
+                        <h2>Subtitulo Segundo Articulo</h2>
+                    </hgroup>
+                </header>
+                <p>Mensaje Segundo Articulo</p>
+                <footer>
+                    <p>Pie de pagina Segundo Articulo</p>
+                </footer>
+            </article>
+        </section>
+        
+        <aside id="columna">
+            <blockquote>Mensaje Lateral 1</blockquote>
+            <blockquote>Mensaje Lateral 2</blockquote>
+        </aside>
+        
+        <footer id="pie">
+            <small>Pie de Pagina Principal</small>
+        </footer>
+    </div>
 </body>
 </html>
