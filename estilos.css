@@ -27,7 +27,7 @@ body
 #agrupar
 {
     margin: 15px auto;
-    width: 960px;
+    width: 980px;
     text-align: left;
 }
 
@@ -38,3 +38,73 @@ body
     padding: 20px;
 }
 
+#menu
+{
+    background: grey;
+    padding: 5px 15px;
+}
+
+#menu li
+{
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    font: bold 14px verdana, sans-serif;
+}
+
+#seccion
+{
+    float: left;
+    margin: 20px;
+    width: 660px;
+}
+
+#columna
+{
+    float: left;
+    margin: 20px 0px;
+    width: 220px;
+    padding: 20px;
+    background: grey;
+}
+
+#pie
+{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid grey;
+}
+
+article
+{
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article hgroup
+{
+    margin-bottom: 5px;
+}
+
+article p
+{
+    margin: 10px 0px;
+}
+
+article footer
+{
+    text-align: right;
+}
+
+article img
+{
+    width: 600px;
+}
+
+figcaption
+{
+    font: italic 14px verdana, sans-serif;
+}
