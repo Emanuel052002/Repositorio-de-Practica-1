@@ -1,0 +1,21 @@
+body
+{
+    text-align: center;
+}
+
+#principal
+{
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #999;
+    background: #ddd;
+}
+
+#titulo
+{
+    font: bold 36px verdana, sans-serif;
+}
+
