@@ -12,10 +12,17 @@ body
     text-align: center;
     border: 1px solid #999999;
     background: #DDDDDD;
-    
-    transform: translate(100px,100px) rotate(15deg) scale(1.5);
-    -moz-transform: translate(100px,100px) rotate(15deg) scale(1.5);
-    -webkit-transform: translate(100px,100px) rotate(15deg) scale(1.5); 
+
+    transition: transform 0.2s ease-in-out 0.2s;
+    -moz-transition: -moz-transform 0.2s ease-in-out 0.2s;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out 0.2s;
+}
+
+#principal:hover
+{
+    transform: scale(1.2) rotate(6deg);
+    -moz-transform: scale(1.2) rotate(6deg);
+    -webkit-transform: scale(1.2) rotate(6deg);
 }
 
 #titulo
