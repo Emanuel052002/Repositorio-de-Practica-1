@@ -7,21 +7,15 @@ body
 {
     display: block;
     width: 500px;
-    text-align: center;
     margin: 50px auto;
     padding: 15px;
-    border: 1px solid black;
-
-    border-radius: 25px / 50px;
-    box-shadow: rgb(146, 146, 146) 10px 10px 10px;
-
-    background: -moz-radial-gradient(center, circle, #fff 0%, #069 150%);
-    background: -webkit-radial-gradient(center, circle, #fff 0%, #069 200%);
-
-    outline: 2px dashed #009;
-    outline-offset: 15px;
-
+    text-align: center;
+    border: 1px solid #999999;
+    background: #DDDDDD;
     
+    transform: translate(100px,100px) rotate(15deg) scale(1.5);
+    -moz-transform: translate(100px,100px) rotate(15deg) scale(1.5);
+    -webkit-transform: translate(100px,100px) rotate(15deg) scale(1.5); 
 }
 
 #titulo
